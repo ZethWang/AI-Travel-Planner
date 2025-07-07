@@ -1,0 +1,31 @@
+# 忽略agno目录
+agno/
+
+# 环境变量文件 - 包含敏感信息
+.env
+.env.local
+.env.development
+.env.production
+
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 日志文件
+*.log
+
+# IDE配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 临时文件
+*.tmp
+*.temp
+
+# API密钥和配置文件
+config.json
+secrets.json

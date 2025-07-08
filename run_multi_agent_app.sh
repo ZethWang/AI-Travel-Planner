@@ -21,7 +21,7 @@ fi
 
 # 检查必需文件
 echo "📁 检查项目文件..."
-required_files=("app.py" "multi_agent_travel.py" "requirements.txt" ".env")
+required_files=("multi_agent_travel.py" "requirements.txt" ".env")
 missing_files=false
 for file in "${required_files[@]}"; do
     if [[ -f "$file" ]]; then
@@ -76,7 +76,7 @@ echo "💡 使用Ctrl+C停止服务"
 echo ""
 
 # 启动Streamlit应用
-streamlit run app.py --server.port 8501 --server.address 0.0.0.0
+streamlit run multi_agent_streamlit_app.py --server.port 8501 --server.address 0.0.0.0
 
 echo ""
 echo "🛑 服务器已停止"

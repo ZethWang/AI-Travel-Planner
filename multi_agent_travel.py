@@ -26,7 +26,7 @@ from travel_prompts import (
 
 # 导入智能体提示词
 try:
-    from agent_prompts import (
+    from travel_prompts import (
         INFORMATION_COLLECTOR_PROMPT,
         ITINERARY_PLANNER_PROMPT,
         FOLLOW_UP_AGENT_PROMPT,
